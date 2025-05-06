@@ -5,4 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/project-ibm/",
   plugins: [react()],
+  // base: "/project-ibm/",
+  build: {
+    outDir: "docs",
+  },
 });
